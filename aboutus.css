@@ -1,0 +1,52 @@
+body{ 
+	
+	background: url(21.jpg) no-repeat;
+	background-size: cover;
+}
+h1{
+	background-color: tomato;
+	opacity: .8;
+
+  
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+  .slide-38,.slide-39,.slide-12001{
+display: block;
+position: absolute;
+width: 50%;
+height: 50%;
+  }
+.slide-38{
+	animation: fade1 10s infinite;
+}
+.slide-39{
+		animation: fade2 10s infinite;
+}
+.slide-12001{
+	animation: fade3 10s infinite;
+}
+@keyframes fade1{
+	0%{opacity: 1;}
+	25%{opacity: 0;}
+	50%{opacity: 0;}
+	75%{opacity: 0;}
+	100%{opacity: 1;}
+}
+@keyframes fade2{
+	0%{opacity: 0;}
+	25%{opacity: 1;}
+	50%{opacity: 0;}
+	75%{opacity: 0;}
+	100%{opacity: 0;}
+	}
+	@keyframes fade3{
+	0%{opacity: 0;}
+	25%{opacity: 0;}
+	50%{opacity: 1;}
+	75%{opacity: 0;}
+	100%{opacity: 0;}
+}
